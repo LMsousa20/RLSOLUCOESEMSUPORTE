@@ -1,0 +1,12 @@
+.ftr {
+    background-color: rgb(41, 41, 41);
+    color: antiquewhite;
+    text-align: center;
+    padding: 3px;
+    width: 100%;
+    font-weight: 700;
+}
+
+.logo-ftr {
+    width: 20px;
+}

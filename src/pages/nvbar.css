@@ -1,0 +1,11 @@
+.nvb {
+    background-color: rgb(41, 41, 41);
+    color: aliceblue;
+    font-weight: 700; 
+}
+
+.lst {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
