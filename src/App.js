@@ -1,26 +1,18 @@
 
 import './App.css';
-import Teste from './Teste';
+import Footer from './components/Footer';
+import Main from './components/Main';
+import Nvbar from './components/nvbar';
+import { BrowserRouter as Router } from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
-        <p>
-          Meu primeiro teste de REACT
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          CUUUUUIDA
-        </a>
-        <Teste />
-      </header>
-
+      <Router>
+        <Nvbar />
+        <Main />
+        <Footer />
+      </Router>
     </div>
   );
 }

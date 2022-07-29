@@ -1,0 +1,9 @@
+.agnd {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.frm{
+    width: 98%;
+    height: 90vh;
+}

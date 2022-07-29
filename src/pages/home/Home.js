@@ -1,15 +1,14 @@
-import Lgtp from './Logo.jpeg';
-import './Main.css';
+import Lgtp from '../../assets/imgs/Logo.jpeg';
+import './home.css';
 
-function Main() {
-    return(
+function Home() {
+    return (
         <div className="cntnr">
             <div className="logo">
                 <img className="imglg" src={Lgtp}></img>
             </div>
-
         </div>
-
-    )      
+    )
 }
-export default Main
+
+export default Home

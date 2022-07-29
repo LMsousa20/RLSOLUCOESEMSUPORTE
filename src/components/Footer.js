@@ -1,5 +1,5 @@
 
-import Heart from './heart.png';
+import Heart from '../../src/assets/imgs/heart.png';
 import './footer.css';
 
 function Footer () 
